@@ -4,7 +4,7 @@
 Justin Meyer [justindmeyer@lewisu.edu](mailto:justindmeyer@lewisu.edu)
 
 ## Credits
-[https://codingartistweb.com/2023/08/pomodoro-timer/](https://codingartistweb.com/2023/08/pomodoro-timer/) for the tutorial and source code. 
+[https://www.youtube.com/watch?v=_9QQf-RpPlM](https://www.youtube.com/watch?v=_9QQf-RpPlM) for the tutorial and source code. 
 
 ## Notes
 ...
