@@ -28,7 +28,7 @@ function startTimer(){
             alert("Time for a break!");
             timeLeft = 10;
         };
-    document.getElementById("status").innerHTML = "STUDY";
+    document.getElementById("status").innerHTML = "Study";
     }, 1000);
 };
 
