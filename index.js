@@ -20,6 +20,7 @@ function updateTimer(){
 
 function startTimer(){
     console.log("Starting the timer.");
+    document.getElementById("status").innerHTML = "Study";
     interval = setInterval(()=> {
         timeLeft--;
         updateTimer();
@@ -28,7 +29,6 @@ function startTimer(){
             alert("Time for a break!");
             timeLeft = 10;
         };
-    document.getElementById("status").innerHTML = "Study";
     }, 1000);
 };
 
