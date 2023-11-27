@@ -18,6 +18,8 @@ function updateTimer(){
     timer.innerHTML = formattedTime;
 };
 
+// TO-DO: make it so its not just a break timer on repeat! maybe define a function for ending the timer so that i can do if/else things easier?? idk
+
 function startTimer(){
     console.log("Starting the timer.");
     document.getElementById("status").innerHTML = "Study";
@@ -26,10 +28,16 @@ function startTimer(){
         updateTimer();
         if(timeLeft === 0){
             clearInterval(interval);
-            alert("Time for a break!");
-            timeLeft = 10;
-        };
-    }, 1000);
+            if (confirm("Time for a break! Press OK to continue. Press cancel to end study session.")) {
+                timeLeft = 5;
+                updateTimer();
+                startTimer();
+                document.getElementById("status").innerHTML = "Break";
+            } else {
+                resetTimer();
+            }
+        }
+    }, 1000)
 };
 
 function stopTimer(){
