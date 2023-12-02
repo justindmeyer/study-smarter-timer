@@ -29,26 +29,28 @@ function startTimer(){
     interval = setInterval(()=> {
         timeLeft--;
         updateTimer();
-        console.log(session)
+        console.log("Session is" + session);
         if (timeLeft === 0 && session === 1) {
             clearInterval(interval);
-            session = 2
+            session = 2;
             if (confirm("Time for a break! Press OK to continue. Press cancel to end study session.")) {
                 timeLeft = 5;
                 updateTimer();
                 startTimer();
             } else {
                 resetTimer();
+                session = 1;
                 }
         } else if (timeLeft === 0 && session === 2) {
             clearInterval(interval);
-            session = 1
+            session = 1;
             if (confirm("Time to study again! Press OK to continue. Press cancel to end study session.")) {
                 timeLeft = 10;
                 updateTimer();
                 startTimer();
             } else {
                 resetTimer();
+                session = 1;
                 }
         }
     }, 1000);
@@ -64,5 +66,6 @@ function resetTimer(){
     clearInterval(interval);
     timeLeft = 10;
     updateTimer();
+    session = 1;
     document.getElementById("status").innerHTML = "";
 };
