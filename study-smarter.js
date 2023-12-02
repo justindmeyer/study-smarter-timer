@@ -3,7 +3,10 @@ const stop = document.getElementById("stop");
 const reset = document.getElementById("reset");
 const timer = document.getElementById("timer");
 var session = 0;
+var tag = document.getElementById("help");
+var button = document.getElementById("helpButton");
 
+button.addEventListener("click", showHelp);
 start.addEventListener("click", startTimer, session = 1);
 stop.addEventListener("click", stopTimer);
 reset.addEventListener("click", resetTimer);
@@ -68,4 +71,8 @@ function resetTimer(){
     updateTimer();
     session = 1;
     document.getElementById("status").innerHTML = "";
+};
+
+function showHelp(){
+tag.classList.toggle("help");
 };
