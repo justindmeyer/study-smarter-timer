@@ -13,3 +13,5 @@ Project could be enhanced by:
 1. Accepting user input for custom study/break times
 2. Adding audio or visual cue for when timer ends
 3. Removing brower alert when timer ends so that it becomes fully automatic
+
+In JavaScript code, the timer must be formatted using seconds, not minutes. For example, to set a 25-minute timer, the code must be 1500.
