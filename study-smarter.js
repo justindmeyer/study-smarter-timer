@@ -12,7 +12,7 @@ stop.addEventListener("click", stopTimer);
 reset.addEventListener("click", resetTimer);
 
 let interval;
-let timeLeft = 10;
+let timeLeft = 1500;
 
 function updateTimer(){
     let minutes = Math.floor(timeLeft / 60);
@@ -37,7 +37,7 @@ function startTimer(){
             clearInterval(interval);
             session = 2;
             if (confirm("Time for a break! Press OK to continue. Press cancel to end study session.")) {
-                timeLeft = 5;
+                timeLeft = 300;
                 updateTimer();
                 startTimer();
             } else {
@@ -48,7 +48,7 @@ function startTimer(){
             clearInterval(interval);
             session = 1;
             if (confirm("Time to study again! Press OK to continue. Press cancel to end study session.")) {
-                timeLeft = 10;
+                timeLeft = 1500;
                 updateTimer();
                 startTimer();
             } else {
@@ -67,7 +67,7 @@ function stopTimer(){
 function resetTimer(){
     console.log("Resetting the timer.");
     clearInterval(interval);
-    timeLeft = 10;
+    timeLeft = 1500;
     updateTimer();
     session = 1;
     document.getElementById("status").innerHTML = "";
