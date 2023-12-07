@@ -9,7 +9,7 @@ Justin Meyer [justindmeyer@lewisu.edu](mailto:justindmeyer@lewisu.edu)
 [https://www.w3schools.com/html/default.asp](https://www.w3schools.com/html/default.asp) for HTML example code.  
 
 ## Notes
-I originally planned to have multiple timers and/or accept user input so that it wans't just ONE basic timer. Unfortunately, I didn't have enough time to work on implementing all of that, so I could only deliver the one specific 25/5 study/break timer.  
+I originally planned to have multiple timers and/or accept user input so that it wans't just ONE basic timer. Unfortunately, I didn't have enough time to work on implementing all of that, so I could only deliver the pomodoro timer.  
  
 Project could be enhanced by:
 1. Accepting user input for custom study/break times
