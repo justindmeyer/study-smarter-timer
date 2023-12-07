@@ -8,6 +8,9 @@ Justin Meyer [justindmeyer@lewisu.edu](mailto:justindmeyer@lewisu.edu)
 [https://www.w3schools.com/css/default.asp](https://www.w3schools.com/css/default.asp) for CSS example code.  
 [https://www.w3schools.com/html/default.asp](https://www.w3schools.com/html/default.asp) for HTML example code.  
 
+## License
+This project is licensed under the MIT License. See the [license](license.md) file for more details.
+
 ## Notes
 I originally planned to have multiple timers and/or accept user input so that it wans't just ONE basic timer. Unfortunately, I didn't have enough time to work on implementing all of that, so I could only deliver the pomodoro timer.  
  
