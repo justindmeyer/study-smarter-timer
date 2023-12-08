@@ -7,6 +7,7 @@ Justin Meyer [justindmeyer@lewisu.edu](mailto:justindmeyer@lewisu.edu)
 [https://www.youtube.com/watch?v=_9QQf-RpPlM](https://www.youtube.com/watch?v=_9QQf-RpPlM) for the tutorial and source code.  
 [https://www.w3schools.com/css/default.asp](https://www.w3schools.com/css/default.asp) for CSS example code.  
 [https://www.w3schools.com/html/default.asp](https://www.w3schools.com/html/default.asp) for HTML example code.  
+[https://www.w3schools.com/js/](https://www.w3schools.com/js/) for JavaScript example code. 
 
 ## License
 This project is licensed under the MIT License. See the [license](license.md) file for more details.
